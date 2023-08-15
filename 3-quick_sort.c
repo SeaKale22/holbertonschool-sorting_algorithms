@@ -9,9 +9,11 @@ void swap(int *a, int *b);
  */
 void quick_sort(int *array, size_t size)
 {
+	int pivot;
+
 	if (size < 2)
 		return;
-	int pivot = array[size - 1];
+	pivot = array[size - 1];
 	size_t i = -1;
 	size_t j;
 
