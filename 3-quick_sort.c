@@ -10,7 +10,7 @@ void swap(int *a, int *b);
 void quick_sort(int *array, size_t size)
 {
 	int pivot;
-	size_t i, j
+	size_t i, j;
 
 	if (size < 2)
 		return;
